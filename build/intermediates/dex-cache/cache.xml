@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_a5aa1d29536039d94bcd4af32f0505053c09880e.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_ebe0a066d48df27f1f36c22dbe6623bbace6716e.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/libs/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_9b7e168a1fef3b1c288fd26b57619bf70611ed1f.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_feb7ef37cec82edcd42eac86a6e73ff38baa0983.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_5ec0c9c45b2867610fb03714275e00ef0c778bf5.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_e5c9d37a09d1036661ed7be6e8e5965226aaa23b.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/libs/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/glide-3.6.1_6d81181e797f636e67eaf032c752880f3310bda3.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/libs/httpmime-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/httpmime-4.3.6_c7c994124bdb530e315ef6dce08e716849c608db.jar" />
+    </item>
+    <item
+        jar="/Users/perk/Downloads/TweetApp/app/libs/httpcore-4.3.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="/Users/perk/Downloads/TweetApp/app/build/intermediates/pre-dexed/debug/httpcore-4.3.3_2daf091484bb33e46a8d9ce8629588c0ac324562.jar" />
+    </item>
+
+</items>
