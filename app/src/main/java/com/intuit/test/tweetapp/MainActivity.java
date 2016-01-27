@@ -35,12 +35,7 @@ import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 
-    final static String CONSUMER_KEY = "xioU1vuT8QnsuAFyOv1bxqW7Z";
-    final static String CONSUMER_SECRET = "FbGx2BTN02q64hZJ7pgKrfhOkGP16SIrxw29dF4EqhnhbldfMQ";
     final static String TwitterTokenURL = "https://api.twitter.com/oauth2/token";
-    EditText et_consumer_key, et_consumer_secret;
-
-    private String bearerToken;
     private SharedPreferences preferences;
     SharedPreferences.Editor editor;
 
@@ -53,12 +48,6 @@ public class MainActivity extends AppCompatActivity {
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         editor = preferences.edit();
         editor.commit();
-
-        et_consumer_key = (EditText) findViewById(R.id.et_consumer_key);
-        et_consumer_key.setText(CONSUMER_KEY);
-
-        et_consumer_secret = (EditText) findViewById(R.id.et_consumer_secret);
-        et_consumer_secret.setText(CONSUMER_SECRET);
 
 
         Button btn_authenticate = (Button) findViewById(R.id.btn_authenticate);
@@ -87,8 +76,8 @@ public class MainActivity extends AppCompatActivity {
             String results = null;
             try {
                 // URL encode the consumer key and secret
-                String urlApiKey = URLEncoder.encode(CONSUMER_KEY, "UTF-8");
-                String urlApiSecret = URLEncoder.encode(CONSUMER_SECRET, "UTF-8");
+                String urlApiKey = URLEncoder.encode(getResources().getString(R.string.consumer_key), "UTF-8");
+                String urlApiSecret = URLEncoder.encode(getResources().getString(R.string.consumer_secret), "UTF-8");
 
                 String combined = urlApiKey + ":" + urlApiSecret;
 
